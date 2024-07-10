@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/865a7a5ecf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Quicksand:wght@500&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css on all.css" type="text/css" >
+
+    <style>
+      .cc21{
+        background-color: #9ACD32;
+        width: 35%;
+        height: 100px;
+        margin-right: 100px;
+        margin-left: 100px;
+        text-align: center;
+        margin-top: 40px;
+        border-radius: 10px;
+      }
+      #cc211{
+        background-color: #9ACD32;
+        width: 35%;
+        height: 100px;
+        margin-right: 100px;
+        margin-left: 390px;
+        text-align: center;
+        margin-top: 40px;
+        border-radius: 10px;
+      }
+      .cc2{
+        width: 100%;
+        height: 700px;
+        background-color: #003366;
+        margin-top: 100px;
+        padding: 100px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
+      }
+      .cc1 {
+        text-align: left;
+        display: flex;
+        margin-right:0px;
+        justify-content: center;
+        font-family: 'Quicksand', sans-serif;
+        color: #0099FF;
+        font-size: 25px;
+      }
+      .head1 {
+        text-align: left;
+        display: flex;
+        margin:0px;
+        justify-content: center;
+        font-family: 'Quicksand', sans-serif;
+        background-color: #0099FF;
+        font-size: 25px;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+
+  <div id="overlay">
+    <div class="state">
+      <div class="ball-arc">
+        <div class="ball"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function off() {
+      document.getElementById("overlay").style.display = "none";
+    }
+
+    function on() {
+      document.getElementById("overlay").style.display = "block";
+      var id = setInterval(frame, 1500);
+      function frame() {
+        off()
+      }
+    }
+    on()
+  </script>
+
+  <!--header start-->
+  <header>
+    <div class="social-icons">
+      <a href="https://www.instagram.com" ><i class="fab fa-instagram icon" style="margin-right: 12px; color: white;"></i></a>
+      <a href="https://www.facebook.com" ><i class="fab fa-facebook icon" style="margin-right: 12px; color: white;"></i></a>
+      <a href="https://www.twitter.com" ><i class="fab fa-twitter icon" style="color: white;"></i></a>
+    </div>
+      
+    <nav class="navbar navbar-expand-lg navbar-light c1" style="font-family: 'Quicksand', sans-serif; width: 100%; background-color: #cbe9fdb0; padding-top: 15px; padding-bottom: 5px; font-weight: bold;">
+      <a class="navbar-brand" href="PROJECT.html">
+        <img id="logo" src="logo-removebg-preview.png" height="140px" width="140px" style="margin-right: 50px;"><br>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link icon" href="PROJECT.html"><h3>Home</h3></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link icon" href="About us.html"><h3>About Us</h3></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <h3>Services</h3>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item icon1" href="home soft wash.html"> Home soft Wash</a>
+              <a class="dropdown-item icon1" href="gutter and downspout.html"> Gutter & Downspout</a>
+              <a class="dropdown-item icon1" href="window detailing.html"> Window Detailing</a>
+              <a class="dropdown-item icon1" href="home deep cleaning.html"> Home Deep Cleaning</a>
+              <a class="dropdown-item icon1" href="pressure wash.html"> Pressure Wash</a>
+
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link icon" href="PROJECT.html#contact-us"><h3>Contact Us</h3></a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </header><!-- header end -->
+
+  <div class="head1">
+    <div style="margin-right: 180px;"><br><br><br>
+      <h1> About us </h1>
+        <p> Committed to Keeping<br> Your Home Squeaky Clean </p>
+    </div>
+        
+    <div style="margin-bottom: 100px; padding: 80px 10px; margin-left: 50px;">
+      <p style="font-size: 17px;"> 16 years ago we once heard a sentence “Big<br>
+          enough to do the job, small enough to care”,<br>
+          and the philosophy captured in that one<br>
+          sentence stuck with us.<br><br>
+          Since we began our company, one of our<br>
+          goals was to grow while keeping the personal<br>
+          service we provide our customers.<br>
+          We grow one client at a time with a close eye<br>
+          on our service quality.<br>
+          We are a part of many of our clients lives as<br>
+          we clean homes.<br>
+          We are there with the pets, the kids, you<br>
+          name it.<br><br>
+          That personal connection and open<br>
+          communication are what has built us long-<br>
+          lasting relationships with so many clients.
+      </p>
+    </div>
+  </div>
+  
+  <img src="https://static.wixstatic.com/media/84770f_dca3928aa48b4117a167a481ad772279~mv2.png/v1/fill/w_1899,h_759,al_c,q_90,usm_0.66_1.00_0.01/84770f_dca3928aa48b4117a167a481ad772279~mv2.webp" style="width: 100%; margin-top: -200px;">
+
+  <div class="cc1">
+    <div style="margin-right: 80px; text-align: center;">
+      <p>
+        <b style="font-size: 80px;"> 6048 </b><br> Clean Homes a year
+      </p>
+    </div>
+
+    <div style="margin-right: 80px; text-align: center;">
+      <p>
+        <b style="font-size: 80px;"> 20 </b><br> Professional Staffers 
+      </p>
+    </div>
+
+    <div style="margin-right: 80px; text-align: center;">
+      <p>
+        <b style="font-size: 80px;"> 850 </b><br> Happy Clients 
+      </p>
+    </div>
+    
+    <div style="text-align: center;">
+      <p>
+        <b style="font-size: 80px;"> 16 </b><br> Years in Business 
+      </p>
+    </div>
+  </div>
+
+  <div class="cc2" style="text-align: center;">
+    <div> <strong style="color: white;"> OUR SERVICES </strong></div>
+    <div style="display: flex;">
+      <div class="cc21"> 
+        Home soft Wash <br>
+        <a style="font-size: 20px; color: #003366; cursor: pointer;" href="home soft wash.html"><u>Read More</u></a>
+      </div>
+      <div style="background-color: #9ACD32; width: 40%; height: 100px; text-align: center;margin-top: 40px; border-radius: 10px;"> 
+        Gutter & Downspout <br>
+        <a style="font-size: 20px; color: #003366; cursor: pointer;" href="gutter and downspout.html"><u>Read More</u></a>      </div>
+    </div>
+    <div style="display: flex;">
+    <div class="cc21"> 
+      Window Detailing <br>
+      <a style="font-size: 20px; color: #003366; cursor: pointer;" href="window detailing.html"><u>Read More</u></a>
+    </div>
+    <div style="background-color: #9ACD32; width: 40%; height: 100px; text-align: center;margin-top: 40px; border-radius: 10px;"> 
+      Home Deep Cleaning <br>
+      <a style="font-size: 20px; color: #003366; cursor: pointer;" href="home deep cleaning.html"><u>Read More</u></a>
+    </div>
+    </div>
+    <div id="cc211"> 
+      Pressure Wash <br>
+      <a style="font-size: 20px; color: #003366; cursor: pointer;" href="pressure wash.html"><u>Read More</u></a>   
+    </div>
+  </div>
+
+  <!-- on all pages start-->
+  <a onclick="topFunction()" id="top-button" title="Go to Top" > <i class="fas fa-chevron-circle-up"></i></a>
+
+  <script>
+    //Get the button:
+    mybutton = document.getElementById("top-button");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+
+      $('html,body').animate({
+        scrollTop: 0
+      }, 1000);
+    } 
+  </script>
+  <!-- on all pages end -->
+
+
+  <!-- footer start-->
+  <footer>
+    <div class="footer">
+      <div class="f1" >
+        <strong style="font-size: 45px;"> OUR COMPANY </strong><br><br>
+        <p> 16 years ago we once heard a sentence “Big enough to do the job, small enough to care”, and the philosophy captured in that one sentence stuck with us. </p>
+      </div>
+      <div class="f2" > 
+        <strong style="font-size: 30px;"> Head Office </strong><br><br>
+        <p> 13110 NE 177th Place,<br> Suite B201,<br>Woodinville, WA 98072<br>1 (425) 802-4622<br>
+        <a href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue&ec=GAlAwAE&flowName=GlifWebSignIn&flowEntry=AddSession" style="cursor: pointer; color: white;">
+          anumf011@gmail.com</a>
+        <br>Fax: 1 (425) 242-8495
+        </p>
+      </div>
+      <div class="f2">
+        <strong style="font-size: 30px;"> Operation Hours </strong><br><br>
+        <p> Mon - Fri: 8am - 6pm<br>Saturday: 9am - 1pm<br>Sunday: Close<br></p>
+      </div> 
+    </div>
+    <div class="f3" style="text-align: center; padding: 10px; color: #0099FF;">
+      <i class="far fa-copyright"></i> 2022 by Power Clean. Proudly created by HAM company limited
+    </div>
+  </footer>
+  <!-- footer end -->
+
+</body>
+<div class="overlay"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</html>

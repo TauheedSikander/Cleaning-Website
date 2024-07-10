@@ -1,0 +1,96 @@
+@media (min-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+  .inner {
+    width: 45%;
+    height: 100%;
+  }
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+  position:inherit;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+.subtitle {
+  color: white;
+  text-align: center;
+  font-family: 'Quicksand' sans-serif;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #0099FF;
+}
+.cards {
+  justify-content: center;
+  font-family: 'Quicksand' sans-serif;
+}
+.card {
+  height: 400px;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  background-image: url("https://static.wixstatic.com/media/20b37c_ba432537196c4bc4bdd67e843f3733b7~mv2.jpg/v1/crop/x_221,y_0,w_359,h_507/fill/w_294,h_455,al_c,q_80,usm_0.66_1.00_0.01/house-washing.webp");
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Quicksand' sans-serif;
+}
+.card2 {
+  background-image: url("https://static.wixstatic.com/media/20b37c_8c48b4c612ea43e3a26517448e147a3d~mv2.jpg/v1/crop/x_1146,y_0,w_1944,h_3024/fill/w_294,h_455,al_c,q_80,usm_0.66_1.00_0.01/IMG_2087_JPG.webp");
+}
+.card3 {
+  background-image: url("https://static.wixstatic.com/media/20b37c_5cafdba0800a4b31b0b9939120145d28~mv2.jpg/v1/crop/x_291,y_0,w_477,h_675/fill/w_294,h_455,al_c,q_80,usm_0.66_1.00_0.01/Concrete-Cleaning-768-x-952-768x675.webp");
+}
+.card4 {
+  background-image: url("https://static.wixstatic.com/media/20b37c_6104946de80d42b0a31333a28cb145fc~mv2.jpg/v1/crop/x_40,y_0,w_227,h_321/fill/w_290,h_449,al_c,lg_1,q_80/Soft-wash-roof-cleaning-e1444930758598-682x321.webp");
+}
+@media (min-width: 768px) {
+  .card {
+    height: 400px;
+  }
+}
+.active {
+  background-color: #717171;
+}
+.reviews {
+  display: flex; justify-content: center; margin-top: 30px; margin-left: 100px; margin-right: 100px;
+}
+.review-block {
+  background-image: url("background.png");
+  padding: 25px 5px;
+  margin: 50px 140px;
+}
+.stars {
+  color: gold; font-size: 35px;
+}
+/* contact us css */
+h6{
+  background-color:#0099FF;
+  text-align: center;
+  color:white;
+  padding:10px;
+  font-size:37px;
+}
+#sub {
+  color: #0099FF;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+.fm {
+  width: 50%;
+  padding: 12px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 20px;
+}

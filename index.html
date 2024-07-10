@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Project </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/865a7a5ecf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Dongle:wght@300&family=Quicksand:wght@500&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css on all.css">
+    <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+
+<body style="margin: 0px;">
+
+  <!-- ball start -->
+  <div id="overlay">
+    <div class="state">
+      <div class="ball-arc">
+        <div class="ball"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function off() {
+      document.getElementById("overlay").style.display = "none";
+    }
+    function on() {
+      document.getElementById("overlay").style.display = "block";
+      var id = setInterval(frame, 1500);
+      function frame() {
+        off()
+      }
+    }
+    on()
+  </script>
+  <!-- ball end -->
+
+  <!--header start-->
+  <header>
+    <div class="social-icons">
+      <a href="https://www.instagram.com" ><i class="fab fa-instagram icon" style="margin-right: 12px; color: white;"></i></a>
+      <a href="https://www.facebook.com" ><i class="fab fa-facebook icon" style="margin-right: 12px; color: white;"></i></a>
+      <a href="https://www.twitter.com" ><i class="fab fa-twitter icon" style="color: white;"></i></a>
+    </div>
+      
+    <nav class="navbar navbar-expand-lg navbar-light c1" style="font-family: 'Quicksand', sans-serif; width: 100%; background-color: #cbe9fdb0; padding-top: 15px; padding-bottom: 5px; font-weight: bold;">
+      <a class="navbar-brand" href="PROJECT.html">
+        <img id="logo" src="logo-removebg-preview.png" height="140px" width="140px" style="margin-right: 50px;"><br>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link icon" href="PROJECT.html"><h3>Home</h3></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link icon" href="About us.html"><h3>About Us</h3></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <h3>Services</h3>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item icon1" href="home soft wash.html"> Home soft Wash</a>
+              <a class="dropdown-item icon1" href="gutter and downspout.html"> Gutter & Downspout</a>
+              <a class="dropdown-item icon1" href="window detailing.html"> Window Detailing</a>
+              <a class="dropdown-item icon1" href="home deep cleaning.html"> Home Deep Cleaning</a>
+              <a class="dropdown-item icon1" href="pressure wash.html"> Pressure Wash</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link icon" href="PROJECT.html#contact-us"><h3>Contact Us</h3></a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </header><!-- header end -->
+
+  <!-- Slideshow start-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators" style="color: black;">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner" style="width: 100%; height: 550px;">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://static.wixstatic.com/media/57b1a3a1c5c844299f5a99f16a62149b.jpg/v1/fill/w_1899,h_679,al_c,q_85,usm_0.66_1.00_0.01/57b1a3a1c5c844299f5a99f16a62149b.webp">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://static.wixstatic.com/media/20b37c_15971a1977b4470aba80c42db68855ff~mv2.jpg/v1/fill/w_1899,h_679,al_c,q_85,usm_0.66_1.00_0.01/20b37c_15971a1977b4470aba80c42db68855ff~mv2.webp">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://hireamaid.ca/wp-content/uploads/2018/06/index-head.jpg?id=41">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://hireamaid.ca/wp-content/uploads/2018/08/beautiful_kitchen.jpg?id=522" >
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://hireamaid.ca/wp-content/uploads/2018/10/Beautiful-Open-Concept-Home-Licensed.jpeg?id=806">
+      </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+  <!-- slideshow end -->
+
+  <div style="text-align: center; color: #0099FF; font-family: cursive; margin-top: 50px;">
+    <p style="font-family: 'Quicksand', sans-serif;">...... Working with us ......</p>
+    <h1><strong>As Easy as 1-2-3</strong></h1>
+  </div>
+
+  <div style="text-align: center; display: flex; margin: 50px auto; justify-content: center; font-family: 'Quicksand', sans-serif;">
+    <div style="margin-right: 100px;">
+      <h2 style="color: #0099FF;">1<br/>
+      Estimate</h2>
+      <p>Call 1129=-222-22 for quick service</p>
+    </div>
+
+    <div style="margin-right: 100px;">
+      <h2 style="color: #0099FF;">2<br />
+      Schedule</h2>
+      <p>Pick date and time for your service</p>
+    </div>
+
+    <div>
+      <h2 style="color: #0099FF;">3<br />
+      Enjoy</h2>
+      <p>Sit back and enjoy our service</p>
+    </div>
+  </div>
+
+  <!-- Youtube video start -->
+  <div style=" text-align: center;">
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/DW9W38J7Zbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <!-- youtube video end -->
+
+  <!-- Quote start-->
+  <div style="justify-content: center; margin-top: 50px; display: flex; background-color: #024470; color: white; padding: 30px; font-family: 'Quicksand', sans-serif; margin-bottom: 50px;">
+    <h1 style="margin-right: 50px;">Let us take care of your next project</h1>
+    <a class="nav-link icon" href="Quote.html" style="background-color: green; color: white; border-radius: 20px; border: none; padding: 20px; font-size: 20px; cursor: pointer;"><h3>Get a Quote </h3> </a>
+  </div>
+  <!-- quote end -->
+
+  <div class="d-flex flex-wrap cards" >
+    <a href="home soft wash.html" class="card p-2 ">
+      <div class="inner">
+        <h2 class="title">HOUSE WASH & GUTTER CLEANING</h2>
+        <p class="subtitle">We use our soft wash technique on your home siding and gutters.</p>
+      </div>
+    </a>
+    <a href="window detailing.html" class="card card2 p-2 ">
+      <div class="inner">
+        <h2 class="title">WINDOWS & SOLAR PANELS</h2>
+        <p class="subtitle">Enjoy a streak free window and high efficiency from your solar panels.</p>
+      </div>
+    </a>
+    <a href="pressure wash.html" class="card card3 p-2 ">
+      <div class="inner">
+        <h2 class="title">PRESSURE WASHING & MORE</h2>
+        <p class="subtitle">We offer a range of pressure washing services for concrete, wood, etc.</p>
+      </div>
+    </a>
+    <a href="home deep cleaning.html" class="card card4 p-2 ">
+      <div class="inner">
+        <h2 class="title">HOME DEEP CLEANING</h2>
+        <p class="subtitle">We offer pro services for interior cleaning solutions by investing more.</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- reviews start-->
+  <div style="text-align: center; margin: 40px auto;">
+    <div style="color: #0099FF;">
+      <h1>What Our Customers Say</h1>
+    </div>
+
+    <div class="review-block">
+
+      <div class="reviews">
+        <div style="margin-right: 130px;">
+          <i class="fab fa-google" style="font-size: 100px; color: orange;"></i>
+          <h5 style="margin: 25px auto; color: #0099FF; font-family: 'Cairo', sans-serif;">Anum</h5>
+          <p class="review-para">They came out my home and did a great kid for.i would recommend them if you’re looking for a power wash company..</p>
+        </div>
+        <div style="margin-right: 130px;">
+          <i class="fas fa-igloo" style="font-size: 100px; color: lightskyblue;"></i>
+          <h5 style="margin: 25px auto; color: #0099FF; font-family: 'Cairo', sans-serif;">Hijaab</h5>
+          <p class="review-para">5 gold stars for PCPW company! They were on time, did a great job, great to converse with, and explained the types of cleaner they were using. I will definitely hire them for more projects- soon!</p>
+        </div>
+        <div>
+          <i class="fab fa-facebook" style="font-size: 100px; color: darkblue;"></i>
+          <h5 style="margin: 25px auto; color: #0099FF; font-family: 'Cairo', sans-serif;">Manahil</h5>
+          <p class="review-para">We had a great experience! Communication was great and our job was done quickly and professionally. Our house looks good as new. I would definitely recommend.
+        </div>
+      </div>
+  
+      <div style="display: flex; justify-content: center; margin-top: 30px;">
+        <i class="fas fa-quote-right" style="margin-right: 340px; margin-left: -20px; font-size: 50px; color: #077c2e;"></i>
+        <i class="fas fa-quote-right" style="margin-right: 360px; font-size: 50px; color: #077c2e;"></i>
+        <i class="fas fa-quote-right" style=" font-size: 50px; color: #077c2e;"></i>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+      <div style="margin-right: 200px;">
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+      </div>
+      <div style="margin-right: 200px;">
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+      </div>
+      <div>
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+        <i class="fas fa-star stars"></i>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+      <div style="margin-right: 280px;">
+        <h5 style="margin: 25px auto 5px; color: #0099FF; font-family: 'Cairo', sans-serif; font-size: 25px;" >4.7 Stars</h5>
+        <p>189 Google Reviews</p>
+      </div>
+      <div style="margin-right: 280px;">
+        <h5 style="margin: 25px auto 5px; color: #0099FF; font-family: 'Cairo', sans-serif; font-size: 25px;">4.9 Stars</h5>
+        <p>81 Home Reviews</p>
+      </div>
+      <div>
+        <h5 style="margin: 25px auto 5px; color: #0099FF; font-family: 'Cairo', sans-serif; font-size: 25px;">4.66 Stars</h5>
+        <p>271 Facebook Reviews</p>
+      </div>
+    </div>
+  </div>
+  <!-- reviews end -->
+
+  <!-- Contact us start -->
+  <a id="contact-us" >
+      <h6> CONTACT US FOR A FREE QUOTE </h6>
+      <div style=" display: flex; margin: 30px; justify-content: center; font-family: 'Quicksand', sans-serif;">
+
+        <div style="overflow:hidden; background:none!important; margin-left: 100px;">
+          <iframe height="350px" width="500px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.4391477454537!2d67.07772321566958!3d24.814651384075617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c62f239e641%3A0x4e41a2d7dd487cfc!2sDHA%20Suffa%20University!5e0!3m2!1sen!2s!4v1643288555853!5m2!1sen!2s" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+        </div>
+  
+        <div class="contain" style="margin-left: 200px;">
+
+          <form type="submit" action="/action_page.php" onsubmit="return pass1()" name="myform">
+            <input type="text" class="fm" name="firstname" placeholder="*Name">
+            <span style="color: red;" id="nmsg" ></span>
+            <input type="email" class="fm" name="email" placeholder="*Email">
+            <span style="color: red;" id="emsg" ></span>
+            <textarea style="height: 100px;" class="fm" name="message" placeholder="Message"></textarea>
+            <span style="color: red;" id="mmsg" ></span><br><br>
+            <input type="submit" id="sub" value="Submit">
+          </form>
+
+        </div>
+      </div> 
+  </a>
+
+  <script>
+    function pass1()
+    {
+      let x = document.forms["myform"]["firstname"].value;
+      let y = document.forms["myform"]["email"].value;
+      let z = document.forms["myform"]["message"].value;
+
+      if(x =="")
+      {
+        document.getElementById("nmsg").innerHTML = "**Name must be filled out";
+      }
+      if(y =="")
+      {
+        document.getElementById("emsg").innerHTML = "**Email must be filled out";
+      }
+      if(z =="")
+      {
+        document.getElementById("mmsg").innerHTML = "**Please type any message";
+        return true;
+      }
+    }
+  </script>
+  <!-- contact us end -->
+
+  <a onclick="topFunction()" id="top-button" title="Go to Top" > <i class="fas fa-chevron-circle-up"></i></a>
+
+  <!-- Script javascript -->
+  <script>
+    //contact us pe click kerne se scroll down ho ker jae home page per
+    $(function() {
+      
+        $('a[href*=\\#contact-us]:not([href=\\#])').on('click', function() {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        });
+    });
+    function myMap() {
+      const uluru = { lat: 30.3753, lng: 69.3451 };
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 6,
+        center: uluru,
+      });
+    }
+    //Get the button:
+    mybutton = document.getElementById("top-button");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      $('html,body').animate({
+        scrollTop: 0
+      }, 1000);
+    } 
+  </script>
+  <!-- javascript / script end-->
+
+  <!--footer start-->
+  <footer style="margin-top: 50px;">
+    <div class="footer">
+      <div class="f1" >
+        <strong style="font-size: 45px;"> OUR COMPANY </strong><br><br>
+        <p> 16 years ago we once heard a sentence “Big enough to do the job, small enough to care”, and the philosophy captured in that one sentence stuck with us. </p>
+      </div>
+      <div class="f2" > 
+        <strong style="font-size: 30px;"> Head Office </strong><br><br>
+        <p> 13110 NE 177th Place,<br> Suite B201,<br>Woodinville, WA 98072<br>1 (425) 802-4622<br>
+        <a href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue&ec=GAlAwAE&flowName=GlifWebSignIn&flowEntry=AddSession" style="cursor: pointer; color: white;">anumf011@gmail.com</a>
+        <br>Fax: 1 (425) 242-8495
+        </p>
+      </div>
+      <div class="f2">
+        <strong style="font-size: 30px;"> Operation Hours </strong><br><br>
+        <p> Mon - Fri: 8am - 6pm<br>Saturday: 9am - 1pm<br>Sunday: Close<br></p>
+      </div> 
+    </div>
+    <div class="f3" style="text-align: center; padding: 10px; color: #0099FF;">
+      <i class="far fa-copyright"></i> 2022 by Power Clean. Proudly created by HAM company limited
+    </div>
+  </footer>
+<!--footer end-->
+
+</body>
+<div class="overlay"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</html>
